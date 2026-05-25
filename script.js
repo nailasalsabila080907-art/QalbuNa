@@ -76,12 +76,11 @@ const dzikirData = {
     category : "Zikir Arafah",
 
     arabic : "لَا إِلَٰهَ إِلَّا ٱللَّٰهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ ٱلْمُلْكُ وَلَهُ ٱلْحَمْدُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
-
+    
     latin : "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu wa huwa 'alaa kulli syai'in qodiir",
-
+    
     meaning : "Tiada Tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya. Milik-Nya segala kerajaan dan segala puji, dan Dia Maha Kuasa atas segala sesuatu.",
-
-    target : 100
+    target : 1000
   }
 
 };

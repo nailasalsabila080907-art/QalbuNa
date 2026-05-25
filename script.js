@@ -2,7 +2,7 @@ const dzikirData = {
 
   subhanallah : {
     category : "Dzikir Harian",
-    arabic : "سبحان الله",
+    arabic : "سُبْحَانَ ٱللَّٰهِ",
     latin : "Subhanallah",
     meaning : "Maha Suci Allah",
     target : 33
@@ -10,7 +10,7 @@ const dzikirData = {
 
   alhamdulillah : {
     category : "Dzikir Harian",
-    arabic : "الحمد لله",
+    arabic : "ٱلْحَمْدُ لِلَّٰهِ",
     latin : "Alhamdulillah",
     meaning : "Segala puji bagi Allah",
     target : 33
@@ -18,7 +18,7 @@ const dzikirData = {
 
   allahuakbar : {
     category : "Dzikir Harian",
-    arabic : "الله أكبر",
+    arabic : "ٱللَّٰهُ أَكْبَرُ",
     latin : "Allahu Akbar",
     meaning : "Allah Maha Besar",
     target : 33
@@ -26,7 +26,7 @@ const dzikirData = {
 
   astaghfirullah : {
     category : "Istighfar",
-    arabic : "أستغفر الله",
+    arabic : "أَسْتَغْفِرُ ٱللَّٰهَ",
     latin : "Astaghfirullah",
     meaning : "Aku memohon ampun kepada Allah",
     target : 100
@@ -34,7 +34,7 @@ const dzikirData = {
 
   lailahaillallah : {
     category : "Tauhid",
-    arabic : "لا إله إلا الله",
+    arabic : "لَا إِلَٰهَ إِلَّا ٱللَّٰهُ",
     latin : "Laa Ilaaha Illallah",
     meaning : "Tiada Tuhan selain Allah",
     target : 100
@@ -69,6 +69,18 @@ const dzikirData = {
     arabic : "اللهم صل على سيدنا محمد",
     latin : "Allahumma shalli ala sayyidina Muhammad",
     meaning : "Ya Allah limpahkan sholawat kepada Nabi Muhammad",
+    target : 100
+  },
+
+  zikirArrafah : {
+    category : "Zikir Arafah",
+
+    arabic : "لَا إِلَٰهَ إِلَّا ٱللَّٰهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ ٱلْمُلْكُ وَلَهُ ٱلْحَمْدُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+
+    latin : "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu wa huwa 'alaa kulli syai'in qodiir",
+
+    meaning : "Tiada Tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya. Milik-Nya segala kerajaan dan segala puji, dan Dia Maha Kuasa atas segala sesuatu.",
+
     target : 100
   }
 

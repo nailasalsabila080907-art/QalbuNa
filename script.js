@@ -102,6 +102,32 @@ let count = 0;
 
 let target = 33;
 
+const quotes = [
+
+  "“Hati menjadi tenang dengan mengingat Allah.”",
+
+  "“Dzikir adalah cahaya bagi hati.”",
+
+  "“Semoga setiap dzikir menjadi pahala.”",
+
+  "“Allah selalu dekat dengan hamba-Nya.”",
+
+  "“Jangan lelah mendekat kepada Allah.”"
+
+];
+
+function randomQuote(){
+
+  const random =
+    Math.floor(Math.random() * quotes.length);
+
+  document.getElementById("quote").innerText =
+    quotes[random];
+
+}
+
+randomQuote();
+
 loadDzikir(selectedDzikir);
 
 function loadDzikir(key){

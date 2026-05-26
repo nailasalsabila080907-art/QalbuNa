@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>QalbuNa</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,199 +16,169 @@
 </head>
 
 <body>
-    <div class="main-layout">
+
+  <!-- Background Glow -->
   <div class="background-glow glow1"></div>
   <div class="background-glow glow2"></div>
 
+  <!-- Container -->
   <div class="container">
 
-    <h1>QalbuNa</h1>
+    <!-- Header -->
+    <div class="header">
 
-    <p class="subtitle">
-      Tenangkan hati dengan mengingat Allah ✨
-    </p>
+      <h1>QalbuNa</h1>
 
-    <!-- Dzikir Select -->
-    <div class="card">
-
-      <label>Pilih Dzikir</label>
-
-      <select id="dzikirSelect">
-
-        <option value="-- pilih zikir--">
-          -- Pilih Dzikir --
-        </option>
-
-        
-        <option value="لا إله إلا الله
-         ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ
-         ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ
-        |       Allāhu lā ilāha illā huw, al-ḥayyu al-qayyūm, lā ta'khudzuhū sinatun wa lā naum,
-                lahū mā fī as-samāwāti wa mā fī al-arḍ, man dhal ladzī yasyfa'u 'indahū illā bi-idznih,
-                ya'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bi-syay'in min 'ilmihī illā bi-mā syā',
-                wasi'a kursiyyuhu as-samāwāti wa al-arḍ, wa lā ya'ūduhu ḥifẓuhumā, wa huwa al-'aliyyu al-'aẓīm.
-">
-          Ayat kursi
-        </option>
-
-        <!-- Dzikir Arafah -->
-  <option value="لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ| Laa ilaha illallah wahdahu laa syarika lah, lahul mulku walahul hamdu wa huwa ‘ala kulli syai-in qodiir.">
-    Zikir Tahlil
-  </option>
-
-
-  <!-- Dzikir Tasbih -->
-  <option value="سبحان الله | Subhanallah">
-    Subhanallah
-  </option>
-
-  <option value="الحمد لله | Alhamdulillah">
-    Alhamdulillah
-  </option>
-
-  <option value="الله أكبر | Allahu Akbar">
-    Allahu Akbar
-  </option>
-
-  <option value="أستغفر الله | Astaghfirullah">
-    Astaghfirullah
-  </option>
-
-  <option value="لا إله إلا الله | Laa Ilaaha Illallah">
-    Laa Ilaaha Illallah
-  </option>
-
-  <!-- Dzikir Pagi -->
-  <option value="أَصْـبَحْنا وَأَصْـبَحَ المـلكُ لله | Dzikir Pagi">
-    Dzikir Pagi
-  </option>
-
-  <!-- Dzikir Petang -->
-  <option value="أَمْسَيْـنا وَأَمْسـى المـلكُ لله | Dzikir Petang">
-    Dzikir Petang
-  </option>
-
-  <!-- Sholawat -->
-  <option value="اللهم صل على سيدنا محمد | Sholawat Nabi">
-    Sholawat Nabi
-  </option>
-
-  <!-- Hasbunallah -->
-  <option value="حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ | Hasbunallah">
-    Hasbunallah
-  </option>
-
-  <!-- Doa Kebaikan -->
-  <option value="رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً | Doa Kebaikan Dunia Akhirat">
-    Doa Dunia Akhirat
-  </option>
-
-  <!-- Istighfar -->
-  <option value="أستغفر الله العظيم وأتوب إليه | Istighfar">
-    Istighfar Panjang
-  </option>
-
-  <!-- Tahmid -->
-  <option value="سبحان الله وبحمده سبحان الله العظيم | Tasbih Agung">
-    Tasbih Agung
-  </option>
-
-  <!-- La Hawla -->
-  <option value="لا حول ولا قوة إلا بالله | La Hawla Wala Quwwata">
-    La Hawla Wala Quwwata
-  </option>
-
-   <option value="-- pilih zikir--">
-          -- Pilih surah --
-        </option>
-
-        <!-- surat al ikhlas-->
-         <option value="قُلْ هُوَ اللّٰهُ اَحَدٌۚ (١) اَللّٰهُ الصَّمَدُۚ (٢) لَمْ يَلِدْ وَلَمْ يُوْلَدْۙ (٣) وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ ࣖ (٤)|
-            Qul huwallaahu ahad. Allaahus shomad. Lam yalid walam yuulad. Walam yakullahuu kufuwan ahad.">
-            Surat Al-Ikhlas
-        </option>
-
-        <!-- surah al falaq--> 
-        <option value="قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ (١)مِنْ شَرِّ مَا خَلَقَۙ (٢)وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ (٣)وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِۙ (٤)وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ ࣖ (٥)|
-        Qul a’uudzu birabbil falaq. Min syarri maa khalaq. Wamin syarri ghaasiqin idzaa waqab. Wamin syarrin naffaa-tsaati fil ’uqad. Wamin syarri haasidin idzaa hasad.">
-            Surat Al-Falaq
-        </option>
-
-
-
-</select>
-
-      
+      <p class="subtitle">
+        Tenangkan hati dengan mengingat Allah ✨
+      </p>
 
     </div>
 
-    <!-- Dzikir Text -->
-    <div class="dzikir-box">
+    <!-- Main Layout -->
+    <div class="main-layout">
 
-      <div class="arabic" id="arabicText">
-        سبحان الله
+      <!-- LEFT -->
+      <div class="left-side">
+
+        <!-- Select Dzikir -->
+        <div class="card">
+
+          <label>Pilih Dzikir</label>
+
+          <select id="dzikirSelect">
+
+            <option value="subhanallah">
+              Subhanallah
+            </option>
+
+            <option value="alhamdulillah">
+              Alhamdulillah
+            </option>
+
+            <option value="allahuakbar">
+              Allahu Akbar
+            </option>
+
+            <option value="astaghfirullah">
+              Astaghfirullah
+            </option>
+
+            <option value="lailahaillallah">
+              Laa Ilaaha Illallah
+            </option>
+
+            <option value="dzikirPagi">
+              Dzikir Pagi
+            </option>
+
+            <option value="dzikirPetang">
+              Dzikir Petang
+            </option>
+
+            <option value="ayatKursi">
+              Ayat Kursi
+            </option>
+
+            <option value="sholawat">
+              Sholawat Nabi
+            </option>
+
+             <option value="zikirArrafah ">
+              Zikir Arrafah
+            </option>
+
+          </select>
+
+        </div>
+
+        <!-- Dzikir Box -->
+        <div class="dzikir-box">
+
+          <div class="category" id="category">
+            Dzikir Harian
+          </div>
+
+          <div class="arabic" id="arabicText">
+            سبحان الله
+          </div>
+
+          <div class="latin" id="latinText">
+            Subhanallah
+          </div>
+
+          <div class="meaning" id="meaningText">
+            Maha Suci Allah
+          </div>
+
+        </div>
+
       </div>
 
-      <div class="latin" id="latinText">
-        Subhanallah
+      <!-- RIGHT -->
+      <div class="right-side">
+
+        <!-- Counter -->
+        <div class="counter" id="count">
+          0
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-container">
+
+          <div class="progress-bar" id="progressBar"></div>
+
+        </div>
+
+        <!-- Target -->
+        <div class="target-setting">
+
+          <label>
+            🎯 Target Dzikir
+          </label>
+
+          <div class="target-box">
+
+            <button onclick="kurangTarget()">
+              −
+            </button>
+
+            <input
+              type="text"
+              id="targetInput"
+              value="33"
+              readonly
+            >
+
+            <button onclick="tambahTargetValue()">
+              +
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Progress Text -->
+        <div class="target-text">
+          Progress
+          <span id="progressText">0</span> /
+          <span id="targetNumber">33</span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+
+          <button class="btn-count" onclick="tambah()">
+            +
+          </button>
+
+          <button class="btn-reset" onclick="resetCount()">
+            Reset
+          </button>
+
+        </div>
+
       </div>
-
-    </div>
-
-    <!-- Counter -->
-    <div class="counter" id="count">
-      0
-    </div>
-
-    <!-- Progress -->
-    <div class="progress-container">
-
-      <div class="progress-bar" id="progressBar"></div>
-
-    </div>
-
-   <div class="target-setting">
-
-  <label>
-    🎯 Target Dzikir
-  </label>
-
-  <div class="target-box">
-
-    <button onclick="kurangTarget()">
-      −
-    </button>
-
-    <input 
-      type="text"
-      id="targetInput"
-      value="33"
-      readonly
-    >
-
-    <button onclick="tambahTargetValue()">
-      +
-    </button>
-
-  </div>
-
-</div>
-
-<div class="target-text">
-  Progress <span id="progressText">0</span> /
-  <span id="targetNumber">33</span>
-</div>
-
-    <!-- Buttons -->
-    <div class="buttons">
-
-      <button class="btn-count" onclick="tambah()">
-        +
-      </button>
-
-      <button class="btn-reset" onclick="resetCount()">
-        Reset
-      </button>
 
     </div>
 
@@ -218,11 +189,16 @@
 
   </div>
 
+  <!-- Audio -->
   <audio id="clickSound">
-    <source src="https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3" type="audio/mpeg">
+    <source
+      src="https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3"
+      type="audio/mpeg"
+    >
   </audio>
 
   <script src="script.js"></script>
-</div>
+
 </body>
+
 </html>

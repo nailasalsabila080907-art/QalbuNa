@@ -58,9 +58,9 @@ const dzikirData = {
 
   ayatKursi : {
     category : "Ayat Pilihan",
-    arabic : "اللّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ",
-    latin : "Allahu laa ilaaha illaa huwal hayyul qayyuum",
-    meaning : "Allah, tidak ada Tuhan selain Dia Yang Maha Hidup",
+    arabic : "اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ ۝٢٥٥",
+    latin : "allâhu lâ ilâha illâ huw, al-ḫayyul-qayyûm, lâ ta'khudzuhû sinatuw wa lâ na'ûm, lahû mâ fis-samâwâti wa mâ fil-ardl, man dzalladzî yasyfa‘u ‘indahû illâ bi'idznih, ya‘lamu mâ baina aidîhim wa mâ khalfahum, wa lâ yuḫîthûna bisyai'im min ‘ilmihî illâ bimâ syâ', wasi‘a kursiyyuhus-samâwâti wal-ardl, wa lâ ya'ûduhû ḫifdhuhumâ, wa huwal-‘aliyyul-‘adhîm",
+    meaning : "Allah, tidak ada tuhan selain Dia, Yang Mahahidup lagi terus-menerus mengurus (makhluk-Nya). Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur. Milik-Nyalah apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang ada di hadapan mereka dan apa yang ada di belakang mereka. Mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya, kecuali apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya) meliputi langit dan bumi. Dia tidak merasa berat memelihara keduanya. Dialah yang Mahatinggi lagi Mahaagung.",
     target : 1
   },
 
